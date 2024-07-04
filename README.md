@@ -1,16 +1,23 @@
 # Project Overview:
 - Allocated two hours for the project.
-- Requirements: Docker Desktop, locally installed Microsoft SQL database.
-- Focused on creating the community events API after setting up database relationships in EF Core.
-- Index ensures users can only book an event once (both in database and API).
+- Creation of api project, blazer project, unit test, and integration test, projects inside the solution 
+
+#Requirements 
+- Docker Desktop
+- Microsoft SQL database
 
 # Technical Details:
-- Created event controller and set up dependency injection.
+- Focused on creating the community events API after setting up database relationships in EF Core.
+- Index ensures users can only book an event once (both in database and API).
+- Dependency injection added with services 
+- Identity added but not incorporated 
 - Established unit testing and integrated testing projects (no content added yet).
-- Plan to use Dockerized Microsoft SQL database for integrated testing.
-- Blazor front end: Bootstrap mixed with Syncfusion or Quick Grids to display upcoming events.
+
+# Plan Not completed:
 - API security: JWT tokens via Microsoft Identity with SQL database.
+- use Dockerized Microsoft SQL database for integrated testing.
+- Blazor front end: Syncfusion / Quick Grids to display upcoming events.
 
 # Reflection:
-- Consider using templates or finding one with Microsoft Identities and Entity Framework Core for quicker development.
-- Alternatively, share a custom API on Git as a reference.
+- Possibility of using an MVC templated web project scaled back as an API may have been faster as identities are already added 
+- Could possibly do with checking the store to see if there are templates available to increase development speed.
