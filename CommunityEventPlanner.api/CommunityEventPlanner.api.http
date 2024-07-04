@@ -1,6 +1,0 @@
-@CommunityEventPlanner.api_HostAddress = http://localhost:5155
-
-GET {{CommunityEventPlanner.api_HostAddress}}/weatherforecast/
-Accept: application/json
-
-###
