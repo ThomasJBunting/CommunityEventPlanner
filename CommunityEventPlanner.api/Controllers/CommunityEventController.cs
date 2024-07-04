@@ -1,12 +1,13 @@
 ﻿using CommunityEventPlanner.api.Contracts.Request;
 using CommunityEventPlanner.api.Mapping;
 using CommunityEventPlanner.api.Models;
+using CommunityEventPlanner.api.Service;
 using Microsoft.AspNetCore.Mvc;
 
 namespace CommunityEventPlanner.api.Controllers
 {
     [ApiController]
-    public class CommunityEventController : Controller()
+    public class CommunityEventController : Controller
     {
         private readonly ICommunityEventService _communityEventService;
 
@@ -19,7 +20,6 @@ namespace CommunityEventPlanner.api.Controllers
             return Ok(communityEventsResponce);
 
         }
-
 
         [HttpGet("communityEvents/{id}")]
         public async Task<IActionResult> GetById(int id)

@@ -1,7 +1,6 @@
-﻿
-using CommunityEventPlanner.api.Models;
+﻿using CommunityEventPlanner.api.Models;
 
-namespace CommunityEventPlanner.api.Controllers
+namespace CommunityEventPlanner.api.Service
 {
     internal interface ICommunityEventService
     {
